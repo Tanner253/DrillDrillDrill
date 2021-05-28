@@ -11,3 +11,8 @@ The two parameters on this question were Lists, so for loops were not used. inst
 O(n log n) sort
 O(n) space
 The solution copies the length of the given array to an output array, and squared each index, and inserts them into the output array. This solution works well with arrays the are given sorted with positive numbers but negative numbers would be sorted differently. A more optimal solution would require the output array to be filled in from right to left, desccending, in order to avoid the extra time complexity of the Array.Sort method
+
+### Tournament winner
+O(n) time
+O(k) space where k is the number of characters in each team name 
+was a task that involved a 2D array and the use of a Dictionary for O(1) lookup and efficient space. Teams were awarded points based on winnings, and the team with the largest amount of points won. Made good use of Ternary operators and the Dictionary.
