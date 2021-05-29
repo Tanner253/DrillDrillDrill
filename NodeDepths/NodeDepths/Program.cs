@@ -6,7 +6,7 @@ namespace NodeDepths
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
         public static int NodeDepths(BinaryTree root)
         {
@@ -23,8 +23,8 @@ namespace NodeDepths
         public class BinaryTree
         {
             public int value;
-            BinaryTree lChild;
-            BinaryTree rChild;
+            public BinaryTree lChild;
+            public BinaryTree rChild;
             public BinaryTree(int value)
             {
                 this.value = value;
