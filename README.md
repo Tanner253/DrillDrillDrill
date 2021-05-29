@@ -36,4 +36,9 @@ This problem was a great refresher on the implimentation of basic BST tasks like
 ### Return the sums of all the branches of a BST from left to right
 Time: O(n) 
 Space: O(n) where n is the number of nodes in the given tree
-This was a good refresher on recursive formulars as well as a depth first treversal.
+This was a good refresher on recursive formulas as well as a depth first traversal.
+
+### Node Depths
+Space: O(h) where h is the height of the tree
+Time: O(n) where n is the number of nodes in the tree
+Write a function that takes in a binary tree and returns the sum of its nodes' depths.
