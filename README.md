@@ -32,3 +32,8 @@ Time: O(log(n))
 space: O(1)
 Write a function that takes in a binary search tree and returns the value closest to the target given.
 This problem was a great refresher on the implimentation of basic BST tasks like inserting, deleting, or searching for a specific node in a BST taking advatage of the properties  of it making the time complexity O(log(n)) time but if there was only one branch to the BST then the worst case for time would be O(n) as we would need to traverse through n nodes to find the closest to target node.
+
+### Return the sums of all the branches of a BST from left to right
+Time: O(n) 
+Space: O(n) where n is the number of nodes in the given tree
+This was a good refresher on recursive formulars as well as a depth first treversal.
