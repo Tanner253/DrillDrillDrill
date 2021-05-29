@@ -47,3 +47,6 @@ Write a function that takes in a binary tree and returns the sum of its nodes' d
 O(v + e) time
 O(v) space
 impliment a depth first traversal of a tree from left to right and store sall the names in an input array and returns it 
+
+### Minimum waiting time
+given a non empty array of positive intigers representing the amounts of time that a specific queries take to execute. only one query can be executed at a time but the queries can be executd in any order. find the minimum query wait time.
