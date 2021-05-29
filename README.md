@@ -52,3 +52,8 @@ impliment a depth first traversal of a tree from left to right and store sall th
 
 ### Minimum waiting time
 given a non empty array of positive intigers representing the amounts of time that a specific queries take to execute. only one query can be executed at a time but the queries can be executd in any order. find the minimum query wait time.
+
+### Class Photos
+space: O(1) not introducing anything just comparing values
+time: O(nlog(n)) + n -> 2log(n) -> O(log(n))
+given two input arrays and a set of rules determine weather a class picture can be taken. This problem was fun and a great refresher on how to index and manipulate a list. I was also reminded how to use the llamda expression to leverage the Sort extension method to not just sort it quickly, but also manipulate the data in a fashion that is desireable, like descending order.
