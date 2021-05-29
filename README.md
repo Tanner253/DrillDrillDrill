@@ -42,3 +42,8 @@ This was a good refresher on recursive formulas as well as a depth first travers
 Space: O(h) where h is the height of the tree
 Time: O(n) where n is the number of nodes in the tree
 Write a function that takes in a binary tree and returns the sum of its nodes' depths.
+
+### Depth first traversal of graph / BT
+O(v + e) time
+O(v) space
+impliment a depth first traversal of a tree from left to right and store sall the names in an input array and returns it 
