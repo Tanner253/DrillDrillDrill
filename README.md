@@ -1,4 +1,6 @@
 # DrillDrillDrill
+All solutions are found in the Program.cs files of each folder.
+
 Interview training
 #### what is a logorithm?
 What is O(log(n))? This is a representation of the behavior of an algorithm or function when the input size is changed. when we have 2 items in an array if you were to cut the array in half you would have done 1 operation. if you double in the input, to 4. your number of operations increases by one. do it again, log(n) of 8 is 3. this is an important concept to understand as having an algorithm run in O(log(n)) time is extremely good and sought after when making coding algoithms when possible. a great example is if you are working on a balance binary search tree your algorithms will almost always be O(log(n)) time when traversing the tree for a specific output.
