@@ -59,3 +59,8 @@ given a non empty array of positive intigers representing the amounts of time th
 space: O(1) not introducing anything just comparing values
 time: O(nlog(n)) + n -> 2log(n) -> O(log(n))
 given two input arrays and a set of rules determine weather a class picture can be taken. This problem was fun and a great refresher on how to index and manipulate a list. I was also reminded how to use the llamda expression to leverage the Sort extension method to not just sort it quickly, but also manipulate the data in a fashion that is desireable, like descending order.
+
+### Tandem Bicycle
+time: O(nlog(n)) 
+space: O(1)
+Given two equal arrays of positive intigers, determine the fasted possible speed or slowest possible speed based on a given boolean. This problem was tricky at first but i didnt even think to take advantage of the Array.Sort extensions. i origionally started a pointed at the end of one array (Length -1) but i could have just reversed one array so that they were opposite of eachother, and then use the same index (i) to access both values. instead of doing this my brute force solution included a second index of j to work in reverse order of the second array if needed. I included my brute force solution as well.
