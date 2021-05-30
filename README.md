@@ -75,3 +75,8 @@ the solution to this problem is pretty straight forward. there is plenty of ways
 Time: O(2^n)
 space: O(n)
 given integer n return the nth fibonacci number
+
+### Product sum of special arrays
+time: O(n) where n is the amount of elements in array
+space: O(d) where d is the depth of the special array
+given a special array return the product sum of the array. This algorithm was a tricky one but a great one for recursion. in fact when the recursive solution clicks it is beautiful :)
