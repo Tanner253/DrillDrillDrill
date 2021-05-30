@@ -64,3 +64,9 @@ given two input arrays and a set of rules determine weather a class picture can 
 time: O(nlog(n)) 
 space: O(1)
 Given two equal arrays of positive intigers, determine the fasted possible speed or slowest possible speed based on a given boolean. This problem was tricky at first but i didnt even think to take advantage of the Array.Sort extensions. i origionally started a pointed at the end of one array (Length -1) but i could have just reversed one array so that they were opposite of eachother, and then use the same index (i) to access both values. instead of doing this my brute force solution included a second index of j to work in reverse order of the second array if needed. I included my brute force solution as well.
+
+
+### removing duplicates from a linked list
+time: O(n)
+space O(1) where n is the number of nodes in a linked list to check through
+the solution to this problem is pretty straight forward. there is plenty of ways to impliment it but my favorite is simply setting the current node to next.next in order to completely skip the next node (which weve checked the value for and have found it is a duplicated) effectivly removing the node that was skipped from the linked list as no pointers are referecned to it anymore. my one question is, is the skipped node still in memory? can we just not access this node anymore beause it is a singly linked list? do we not care? if it was a doubly linked list obviously we would need to replace both pointers for the duplicated nodes, to make sure they are garbage collected, but does this occur naturally with a singly linked list or is there going to be extra data/space being taken up that we cant see on the front.
