@@ -84,3 +84,10 @@ given a special array return the product sum of the array. This algorithm was a 
 ### Binary Search Array
 Time: O(log(n))
 space: O(log(n)) time and space complexity is log of n becuase each time we run an operation on the array, we are cutting off half of the data to work with making the data set smaller. this would mean if we doubled our dataset the amount of operations would only increase  by one.
+
+### Find the three largest numbers
+space:O(1)
+Time: O(n) where n is the amount of numbers int he input array
+write a function that takes in an array of at least three intigers and without sorting the input array returns a sorted array of the three largest integers in the input array
+this was a good reminder that array manipulation is a little trickier than it looks.
+
