@@ -80,3 +80,7 @@ given integer n return the nth fibonacci number
 time: O(n) where n is the amount of elements in array
 space: O(d) where d is the depth of the special array
 given a special array return the product sum of the array. This algorithm was a tricky one but a great one for recursion. in fact when the recursive solution clicks it is beautiful :)
+
+### Binary Search Array
+Time: O(log(n))
+space: O(log(n)) time and space complexity is log of n becuase each time we run an operation on the array, we are cutting off half of the data to work with making the data set smaller. this would mean if we doubled our dataset the amount of operations would only increase  by one.
