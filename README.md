@@ -108,3 +108,8 @@ This sorting algorithm made a lot more sense to me than the previous two, in ter
 ### Is Palindrome?
 O(n^2) time O(n) where n is the number of characters in the input string
 Given a string return a boolean of true or false if the string is a palindrome or not. intitially i imagined using a stack, pushing each index of the given input into a stack then poping each element off the stack and comparing it to the string again. this would not be efficient but was my initial thinking. Luckily C# gives multiple ways to reach a solution WITHOUT intorducing another datastructure, using the Equal extension method on the string class allowed me to validate a palindrome or not with one single line. cool stuff. this was a fun little short algorith.
+
+### Run-Length Encoding"
+O(n) time O(n) space where n is the size of the input string.
+given a non empty string return the run length encoding for each character
+this is a no loss encoding or a loss less encoding which means given the output we can decode it to again reach the input. and vice versa. the loss less encoding saves space efficiently without losing any data. Once this problem clicks for you and you understand the full complexity of it, it will make you smile as it is a really neat algorithm.
