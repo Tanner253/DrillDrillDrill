@@ -100,3 +100,7 @@ Bubble sort is not the most efficient of the sorting algorithms by any means how
 Best: O(n) time O(1) space
 AVG/Worst: O*(n^2) time O(1) space
 Another great sorting algorithm, this one seemed to be really intuitive as well, makes me excited to see the more complicated sorting algorithms. I need to study these more! 
+
+### Selection Sort
+Best: O(n^2) time O(1) space
+This sorting algorithm made a lot more sense to me than the previous two, in terms of how quickly i was able to impliment them. Selection sort seems like a great sorting algorithm but is still running in O(n^2) and this can be optimized further my merge sort or heap sort or quick sort. all in all good excercise.
