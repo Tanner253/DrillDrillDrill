@@ -91,3 +91,9 @@ Time: O(n) where n is the amount of numbers int he input array
 write a function that takes in an array of at least three intigers and without sorting the input array returns a sorted array of the three largest integers in the input array
 this was a good reminder that array manipulation is a little trickier than it looks.
 
+### Bubble sort implimentation
+Best: O(n) time O(1) space
+AVG/WORST: O(n^2) time and O(1) space
+Bubble sort is not the most efficient of the sorting algorithms by any means however it is a good segway to understanding sorts and how they work. This sorting algorithm is great for practicing and understanding the array data structure and manupulating them in place.
+
+
