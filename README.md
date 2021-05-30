@@ -96,4 +96,7 @@ Best: O(n) time O(1) space
 AVG/WORST: O(n^2) time and O(1) space
 Bubble sort is not the most efficient of the sorting algorithms by any means however it is a good segway to understanding sorts and how they work. This sorting algorithm is great for practicing and understanding the array data structure and manupulating them in place.
 
-
+### Insertion Sort
+Best: O(n) time O(1) space
+AVG/Worst: O*(n^2) time O(1) space
+Another great sorting algorithm, this one seemed to be really intuitive as well, makes me excited to see the more complicated sorting algorithms. I need to study these more! 
