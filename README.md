@@ -113,3 +113,8 @@ Given a string return a boolean of true or false if the string is a palindrome o
 O(n) time O(n) space where n is the size of the input string.
 given a non empty string return the run length encoding for each character
 this is a no loss encoding or a loss less encoding which means given the output we can decode it to again reach the input. and vice versa. the loss less encoding saves space efficiently without losing any data. Once this problem clicks for you and you understand the full complexity of it, it will make you smile as it is a really neat algorithm.
+
+### Generate Document
+O(c * (n + m)) time O(c) space where n is the number of characters, m is the length of the document, and c is the number of unique characters in the document
+Write a function that determins weather or not a document can be created with a given set of characters, each of which can only be used one time.
+it didn't occur to me immediatly but while looking for the amount of times unique values occures hashsets are great for. while hashmaps return on collisions, hashsets are great for incrimenting a key value, when the key is reached. then you just look up the hashset at a given value to see if there are available characters to be used in the creation of the document. if there is ever a need for a specific character to be used in the document but the hashset says there are none left, it will return false. if the function runs without this being the case then we can indeed create the document with the given characters.
