@@ -118,3 +118,8 @@ this is a no loss encoding or a loss less encoding which means given the output 
 O(c * (n + m)) time O(c) space where n is the number of characters, m is the length of the document, and c is the number of unique characters in the document
 Write a function that determins weather or not a document can be created with a given set of characters, each of which can only be used one time.
 it didn't occur to me immediatly but while looking for the amount of times unique values occures hashsets are great for. while hashmaps return on collisions, hashsets are great for incrimenting a key value, when the key is reached. then you just look up the hashset at a given value to see if there are available characters to be used in the creation of the document. if there is ever a need for a specific character to be used in the document but the hashset says there are none left, it will return false. if the function runs without this being the case then we can indeed create the document with the given characters.
+
+### Detecting first non duplicate
+O(n) time where n is the amount of letters in given string
+O(1) space where at most the dictionary takes up 26 characters.
+Initially i had thought of using a hashmap to detect collisions and detect where the first one happened but i would lose track of the amount of occurrences, so a Dictionary seemed to work well wjhere the key of the dictionry would be each character and the value would be the frequency of the letter, iterate through, populating the dictionary first, then iterate through again, checking the values of the dictionary in order of the string, and returning the first letter to only occur once. if this does not happen return -1.
