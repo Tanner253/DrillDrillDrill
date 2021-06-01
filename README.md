@@ -123,3 +123,8 @@ it didn't occur to me immediatly but while looking for the amount of times uniqu
 O(n) time where n is the amount of letters in given string
 O(1) space where at most the dictionary takes up 26 characters.
 Initially i had thought of using a hashmap to detect collisions and detect where the first one happened but i would lose track of the amount of occurrences, so a Dictionary seemed to work well wjhere the key of the dictionry would be each character and the value would be the frequency of the letter, iterate through, populating the dictionary first, then iterate through again, checking the values of the dictionary in order of the string, and returning the first letter to only occur once. if this does not happen return -1.
+
+### Three number sum
+O(n^2) time
+O(n) space where n is the number of elements in the input array
+At first given the fact we have to compare each index with 2 of all the other elements to reach a target sum screamed nested forloop but that would have been o n cubed time, There has to be a better way. Turns out using pointers and the basic rules of a sorted array, we can easily sum all of the possible combinations with one pass through the array, it is squared because we have to do operations inside of another while loop till we find a correct sum on a given index, then we move the index and check the other elements for another match. This was a great refresher on basic array manipulation, and a reminder sorted arrays are mroe often than not easier to work with.
