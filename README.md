@@ -129,3 +129,7 @@ Initially i had thought of using a hashmap to detect collisions and detect where
 O(n^2) time
 O(n) space where n is the number of elements in the input array
 At first given the fact we have to compare each index with 2 of all the other elements to reach a target sum screamed nested forloop but that would have been o n cubed time, There has to be a better way. Turns out using pointers and the basic rules of a sorted array, we can easily sum all of the possible combinations with one pass through the array, it is squared because we have to do operations inside of another while loop till we find a correct sum on a given index, then we move the index and check the other elements for another match. This was a great refresher on basic array manipulation, and a reminder sorted arrays are mroe often than not easier to work with.
+
+### The smallest difference
+O(nlog(n) + mlog(m) time O(1) space
+This problem was a little trickier than i inticipated but thanks to algo expert got to a solution. 2 pointers is the trick~
