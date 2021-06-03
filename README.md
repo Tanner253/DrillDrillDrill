@@ -1,6 +1,8 @@
 # DrillDrillDrill
 
 All solutions are found in the Program.cs files of each folder.
+
+
 please excuse typos i will clean it up eventually.
 
 Interview training
