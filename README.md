@@ -1,9 +1,9 @@
 # DrillDrillDrill
-
+Been workin --> less time to code will find time to transfer solutions to github soon 
 All solutions . are found in the Program.cs files of each folder.
 
 .
-please excuse typos i will clean it up eventually. Will be coding several hours a day starting Tuesday 6/7 :l
+please excuse typos i will clean it up eventually. 
 
 Interview training
 #### what is a logorithm?
