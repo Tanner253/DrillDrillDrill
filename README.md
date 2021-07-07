@@ -1,5 +1,5 @@
 # DrillDrillDrill
-Been workin --> less time to code will find time to transfer solutions to github soon 
+Been workin --> less time to code will find time to transfer solutions to github soon...
 All solutions . are found in the Program.cs files of each folder.
 
 .
