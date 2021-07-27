@@ -1,4 +1,5 @@
 # DrillDrillDrill
+### been having less time to transfer solutions from algoexpert.com to my github, i am still completing solutions 
 Been workin --> less time to code will find time to transfer solutions to github soon...
 All solutions . are found in the Program.cs files of each folder.
 
